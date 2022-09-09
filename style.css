@@ -1,0 +1,449 @@
+*{
+    margin:0;
+    padding:0;
+}
+html{
+    font-size: 62.5%;   /*1 rem 10px*/
+}
+/*body seccion index*/
+
+.tipografiaAlegreya{
+    font-family: 'Alegreya Sans SC', sans-serif;
+    background-color: black;
+    color: white;
+}
+.textdec-none{
+    text-decoration: none;
+}
+
+/*header y lista de navegacion seccion index*/
+
+.containerHeader{
+    text-decoration: none;
+    position: fixed;
+    background-color: black;
+    width: 100%;
+    border-bottom: 0.1rem solid pink;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.containerHeader h1{
+    font-size: 5rem;
+    font-family: 'Michroma', sans-serif;
+    font-style: normal;
+    padding: 1.5rem 10rem 1.5rem 1.5rem;
+    color: white;
+
+}
+
+.navegacion nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.navegacion div{
+    display: flex;
+    flex-direction: row;
+    padding: 1rem 2rem;
+    margin-top: 2rem;
+}
+
+.navegacion div p{
+    font-size: 2rem;
+    margin: 1rem;
+}
+
+.navegacion{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: flex-end;
+    margin-top: 4rem;
+}
+
+.containerHeader nav ul li a{
+    font-family: 'Michroma', sans-serif;
+    text-decoration: none;
+    color: white;
+    font-size: 2rem;
+    border: 3rem;
+    list-style: none;
+    margin: 2rem;
+    display: inline-block;
+}
+
+nav ul li{
+    display: inline-block;
+}
+
+/*imagen inicio*/
+
+.imagenIndex{
+    width: 100%;
+    padding: 12rem 0 5rem;
+}
+
+.texto_video{
+    font-size: 8rem;
+    text-align: center;
+    line-height: 10rem;
+    color: white;
+}
+
+section h3{
+    font-size: 4rem;
+    text-align: center;
+    line-height: 8rem;
+}
+
+/*imagenes de muestra*/
+
+.imagenesMuestra article div{
+    padding: 1.5rem;
+    margin: 1.5rem;
+    border: solid 0.02rem grey;
+}
+article div p{
+    font-size: 1.5rem;
+    font-weight: 200;
+    color: white;
+    margin: 1.5rem;
+    padding: 1.5rem;
+}
+
+.imagenesFlex div img{
+    width: 250px;
+    height: 400px;
+}
+
+.imagenesFlex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 2rem;
+}
+
+.volverIndex{
+    font-size: 2rem;
+    color: white;
+    padding: 1.5rem;
+    border: solid 0.1rem white;
+    margin: 1rem;
+}
+
+/*redes*/
+.iconosRedes{
+    background-color: white;
+    color: black;
+    text-align: center;
+    padding: 2rem;
+    margin: 6rem 0;
+}
+
+.iconosRedes h3{
+    font-size: 4rem;
+}
+.iconosRedes a i{
+    font-size: 4rem;
+    font-weight: 2rem;
+    padding: 4rem;
+    color: black;
+}
+
+/*contacto y sucursales*/
+.contactoSucursales{
+    font-size: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.contacto_tel_mail ul{
+    display: flex;
+    flex-direction: column;
+}
+
+.contacto_tel_mail ul li{
+    list-style: none;
+}
+
+.sucursalesFlex{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/*whatsapp*/
+
+.whatsappfijo{
+    font-size: 4rem;
+    color: white;
+    position: fixed;
+    width: 4rem;
+    height: 4rem;
+    line-height: 4.5rem;
+    bottom: 1.5rem;
+    left: 1.5rem;
+
+}
+
+/*tipografia secciones*/
+
+.tipografiaBody{
+    font-family: 'Alegreya Sans SC', sans-serif;
+    background-color: black;
+    color: white;
+} 
+
+.BarraNavegacion{
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    margin-top: 4rem;
+}
+
+/*bordes de la imagenes*/
+.imagenFlexJean div{
+    border: solid 0.02rem grey;
+    padding: 2rem;
+    margin: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.imagenFlexCalzado div{
+    border: solid 0.02rem grey;
+    padding: 2rem;
+    margin: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.imagenFlexKimonos div{
+    border: solid 0.02rem grey;
+    padding: 2rem;
+    margin: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/*seccion jean*/
+
+.imagenSeccionJean{
+    padding: 1.5rem;
+    width: 32rem;
+    height: 40rem;
+}
+
+.imagenFlexJean{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 3rem;
+}
+
+section div p{
+    font-size: 2.5rem;
+    font-weight: 200;
+    margin: 0.5rem 1.5rem;
+    padding: 0.5rem 1.5rem;
+    text-align: center;
+}
+
+/*seccion kimonos*/
+
+.imagenSeccionKimonos{
+    padding: 1.5rem;
+    width: 32rem;
+    height: 40rem;
+}
+
+.imagenFlexKimonos{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 3rem;
+}
+
+/*seccion calzado*/
+
+.imagenSeccionCalzado{
+    padding: 1.5rem;
+    width: 32rem;
+    height: 40rem;
+}
+
+.imagenFlexCalzado{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 3rem;
+}
+
+@media screen and (max-width: 768px){
+
+    /*barra navegacion*/
+    .containerHeader h1{
+        font-size: 3rem;
+        padding: 0 0 0 1.5rem;
+    }
+
+    .containerHeader nav ul li a {
+        font-size: 1.5rem;
+        margin: 1rem;
+    }
+
+    /*imagen encabezado*/
+    .imagenIndex{
+        padding: 8rem 0 0rem;
+    }
+
+    .texto_video{
+        font-size: 4rem;
+        line-height: 5rem;
+    }
+
+    section h3 {
+        font-size: 3rem;
+        line-height: 6rem;
+    }
+
+    /*imagenes index*/
+    .imagenesFlex {
+        justify-content: center;
+    }    
+
+    .volverIndex {
+        font-size: 1.5rem;
+    }
+
+    /*footer*/
+    .iconosRedes {
+        margin: 4rem 0;
+    }
+
+    .iconosRedes h3 {
+        font-size: 3rem;
+    }
+
+    .contactoSucursales {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    /*secciones*/
+
+    .imagenFlexJean , .imagenFlexKimonos , .imagenFlexCalzado{
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .imagenSeccionJean , .imagenSeccionKimonos , .imagenSeccionCalzado{
+        width: 25rem;
+        height: 33rem;
+    }
+
+    section div p {
+        font-size: 2rem;
+    }
+
+}
+
+@media screen and (max-width: 480px){
+
+    /*barra navegacion*/
+    .containerHeader h1{
+        font-size: 2rem;
+        padding: 1.5rem 0rem 0rem 1.5rem;
+    }
+    .containerHeader nav ul li a {
+        font-size: 1rem;
+        margin: 1rem;
+    }
+    .navegacion {
+        margin-top: 0;
+    }
+    .containerHeader{
+        flex-direction: column;
+        align-items: unset;
+    }
+    
+    /*cuerpo index*/
+    .imagenIndex{
+        padding: 8rem  0 0;
+    }
+    .texto_video {
+        font-size: 2rem;
+        line-height: 4rem;
+    }
+    section h3 {
+        font-size: 2.5rem;
+        line-height: 3rem;
+    }
+
+    /*imagenes*/
+
+    .imagenesFlex div img {
+        width: 110px;
+        height: 165px;
+    }
+    section div p {
+        font-size: 1.5rem;
+        padding: 0.5rem 0;
+        margin: 0.5rem;
+    }
+    .imagenesFlex {
+        justify-content: space-evenly;
+        padding: 0;
+    }   
+    .volverIndex {
+        font-size: 1rem;
+        padding: 0.5rem;
+    }
+
+    /*footer index*/
+    .iconosRedes {
+        text-align: center;
+        padding: 2rem;
+        margin: 2rem 0;
+    }
+    .iconosRedes h3 {
+        display: none;
+    }
+    .iconosRedes {
+        text-align: center;
+        padding: 0;
+    }
+
+    .contactoSucursales {
+        font-size: 1.5rem;
+        text-align: center;
+        flex-direction: column;
+    }
+
+    /*seccion jean imagenes*/
+
+    .imagenSeccionJean , .imagenSeccionCalzado , .imagenSeccionKimonos{
+        width: 12rem;
+        height: 21rem;
+    }
+
+    .imagenFlexJean , .imagenFlexCalzado , .imagenFlexKimonos{   
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(4, 1fr);
+    padding: 3rem 0;
+    }
+
+}
