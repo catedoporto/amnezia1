@@ -10,12 +10,13 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@300&family=Black+Ops+One&family=Michroma&display=swap"
-      rel="stylesheet"
-    />
+      rel="stylesheet"/>
     <script
       src="https://kit.fontawesome.com/5f3343e6b4.js"
       crossorigin="anonymous"
     ></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css" />
     <title>AMNEZIA</title>
   </head>
   <body class="tipografiaAlegreya">
@@ -46,61 +47,63 @@
       </header>
       <div class="imagenInicio"  id="inicio">
         <img src="./dosome.jpg" alt="" class="imagenIndex" />
-        <h2 class="texto_video">Descubri la nueva colección 2023</h2>
+        <div data-aos="zoom-in">
+          <h2 class="texto_video">Descubri la nueva colección 2023</h2>
+        </div>
       </div>
       <section class="imagenesMuestra">
         <h3>Los más elegidos de AMNEZIA</h3>
         <article class="imagenesFlex">
-          <div>
+          <div data-aos="fade-right">
             <img
               src="./Fotos/calzado/bota1.jpg"
               alt="BotaAries"
             />
             <p>Bota Aries</p>
           </div>
-          <div>
+          <div data-aos="fade-right">
             <img
               src="./Fotos/kimonos/kimono 1.jpg"
               alt="KimonoFran"
             />
             <p>Kimono Fran</p>
           </div>
-          <div>
+          <div data-aos="fade-left">
             <img
               src="./Fotos/pantalones/panalon2.jpg"
               alt="PantalonRoma"
             />
             <p>Pantalon Roma</p>
           </div>
-          <div>
+          <div data-aos="fade-left">
             <img
               src="./Fotos/calzado/sandalia2.jpg"
               alt="SandaliaFeli"
             />
             <p>Sandalia Feli</p>
           </div>
-          <div>
+          <div data-aos="fade-right">
             <img
               src="./Fotos/kimonos/saco.jpg"
               alt="SacoEvu"
             />
             <p>Saco Evu</p>
           </div>
-          <div>
+          <div data-aos="fade-right">
             <img
               src="./Fotos/pantalones/pantalon4.jpg"
               alt="PantalonCaro"
             />
             <p>Pantalon Caro</p>
           </div>
-          <div>
+          <div data-aos="fade-left">
             <img
               src="./Fotos/pantalones/pantalon7.jpg"
               alt="PantalonAmor"
             />
             <p>Pantalon Amor</p>
           </div>
-          <div>
+          <div data-aos="fade-left">
             <img
               src="./Fotos/calzado/zapatilla6.jpg"
               alt="Zapatilla Nerea"
@@ -116,13 +119,13 @@
         <div class="iconosRedes">
           <h3>SEGUINOS EN NUESTRAS REDES</h3>
           <a href="https://facebook.com/amnezia" target="_blank">
-            <i class="fa-brands fa-square-facebook"></i>
+            <i class="fa-brands fa-square-facebook scale transition"></i>
           </a>
           <a href="https://instagram.com/amnezia" target="_blank">
-            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-instagram scale transition"></i>
           </a>
           <a href="https://tiktok.com/amnezia" target="_blank">
-            <i class="fa-brands fa-square-twitter"></i>
+            <i class="fa-brands fa-square-twitter scale transition"></i>
           </a>
         </div>
         <div class="contactoSucursales">
@@ -153,8 +156,12 @@
         </div>
       </footer>
       <a href="http://whatsapp.com/221525475" target="_blank" class="whatsappfijo">
-        <i class="fa-brands fa-whatsapp"></i>
+        <i class="fa-brands fa-whatsapp scale transition"></i>
       </a>
     </div>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
