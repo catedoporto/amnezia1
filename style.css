@@ -291,15 +291,7 @@ section div p{
     grid-template-columns: 1fr 1fr 1fr;
     padding: 3rem;
 }
-.transition{
-    transition: all 1s;
-}
-.scale:hover{
-    transform: scale(1.2);
-    -webkit-transform: scale(1.2);
-    -o-transform: scale(1.2);
-    -moz-transform: scale(1.2);
-}
+
 
 @media screen and (max-width: 768px){
 
